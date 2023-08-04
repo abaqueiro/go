@@ -18,7 +18,9 @@ func main(){
 	for scanner.Scan() {
 		// access the line read
 		line := scanner.Text()
+		// ignoring posible errors from scanner.Err()
 		countH[ line ]++
+		// if countH[ line ] does not exists it is 0 by default of int
 	}
 
 	msg := "------------------------------------------------------------"
