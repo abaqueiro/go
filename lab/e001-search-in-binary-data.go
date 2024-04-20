@@ -24,5 +24,5 @@ func main(){
 	fmt.Printf( "%X\n", search_2 )
 	fmt.Println( "search_2 is contained in data:", bytes.Contains( data, search_2 ) )
 	fmt.Println()
-
+	fmt.Println()
 }
